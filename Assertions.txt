@@ -1,0 +1,17 @@
+
+
+Assertion.
+
+.assertEquals = Evalua un valor esperado con el valor actual que devuelve el metodo a testear.
+
+.assertTrue = Evalua que el valor actual cumpla o no una condicion booleana, si la cumple se pasa el test sino da error.
+
+.assertFalse = Evalua el valor actual y corrobora que no cumpla una condicion. Si no la cumple se pasa el test , si la cumple da error.
+
+.assertNotNull = Evalua que el valor actual no sea nulo.
+
+.assertInstanceOf = Evalua que el valor actual sea una instancia de una clase en particular.
+ Ej : valorActual = 3       assertInstanceOf(valor esperado :Integer.class, valor Actual : 3) En este caso se pasaria el test
+          assertInstanceOf(valor esperado :String.class, valor Actual : 3) En este caso  NO se pasaria el test.
+
+.assertThrows = Evalua si un metodo da un error o excepcion en particular que sea el esperado.
